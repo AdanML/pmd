@@ -58,7 +58,7 @@ public class PMD {
 	private final SourceCodeProcessor rulesetsFileProcessor;
 
     public static Parser parserFor(LanguageVersion languageVersion, PMDConfiguration configuration) {
-    	
+    	//ola k ase
     	// TODO Handle Rules having different parser options.
    	 	LanguageVersionHandler languageVersionHandler = languageVersion.getLanguageVersionHandler();
         ParserOptions options = languageVersionHandler.getDefaultParserOptions();
